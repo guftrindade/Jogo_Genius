@@ -15,10 +15,11 @@ const yellow = document.querySelector('.yellow');
 
 //CRIANDO ORDEM ALEATÓRIA DE CORES
 let shuffleOrder = () => {
+
     let colorOrder = Math.floor(Math.random() * 4);
     order[order.length] = colorOrder;
     clickedOrder = [];
-    
+
     for(let i in order){
         let elementColor = createColorElement(order[i]);
         lightColor(elementColor, Number(i) + 1);
@@ -89,6 +90,7 @@ let nextLevel = () => {
 
 //FUNÇÃO GAME OVER
 let gameOver = () => {
+    somGameover.play();
     alert(`Pontuação: ${score}!\nVocê perdeu o jogo!\nClique em OK para iniciar um novo jogo.`);
     order = [];
     clickOrder = [];
@@ -101,6 +103,8 @@ let gameOver = () => {
 let playGame = () => {
     alert('Bem vindo ao Jogo Genêsis! Iniciando um novo jogo!');
     score = 0;
+    
+    var somGameover=document.getElementById("somGameover");
 
     nextLevel();
 }

@@ -3,12 +3,21 @@ body{
     background-color: rgb(134, 125, 125);
 }
 
+.nome{
+    margin-left: 10px;
+    color: white;
+    font-family: 'Arial Black', Times;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
 .main-game{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1%;
 }
 
 .genius{
@@ -23,30 +32,47 @@ body{
     height: 450px;
 }
 
+
 .blue{
     grid-area: azul;
     background-color: rgb(55, 55, 219);
     border-bottom-right-radius: 100%;
+    cursor: pointer;
 }
 
 .red{
     grid-area: vermelho;
     background-color: rgb(236, 39, 39);
     border-top-right-radius: 100%;
+    cursor: pointer;
 }
 
 .yellow{
     grid-area: amarelo;
     background-color: rgb(248, 228, 43);
     border-bottom-left-radius: 100%;
+    cursor: pointer;
 }
 
 .green{
     grid-area: verde;
     background-color: rgb(42, 230, 51);
     border-top-left-radius: 100%;
+    cursor: pointer;
 }
 
 .selected{
     opacity: 0.4;
+}
+
+.selected:hover{
+    opacity: 0.4;
+}
+
+.logo{
+	width: 10%;
+	height: 10%;
+	position:absolute;
+	right: 2%;
+	top: 5%;	
 }
