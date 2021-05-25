@@ -1,6 +1,7 @@
-# Jogo_Genius <img align="center" height="50" src="https://user-images.githubusercontent.com/67704261/119411020-1bbc4c80-bcc0-11eb-9f5b-06c3d109fa40.png" />
+# Jogo_Genius <img align="center" height="50" src="https://user-images.githubusercontent.com/67704261/119539576-b53c3a80-bd62-11eb-94b7-cef6b09fbc43.png" />
 Projeto desenvolvido durante o Bootcamp JavaScript Game Developer na Digital Innovation One
 
 
-<img align="center" height="350" src="https://user-images.githubusercontent.com/67704261/119411539-f7ad3b00-bcc0-11eb-8aae-6ed14d0a0777.png" />
+<img align="center" height="350" src="https://user-images.githubusercontent.com/67704261/119539410-858d3280-bd62-11eb-8ddd-9b7bd296d70f.png" />
+
 
